@@ -14,14 +14,29 @@ a{
     width: auto;
     height: 70px;
 }
-nav ul li{
+header nav ul li{
     display: inline-block;
 
 }
-#heberg{
-    border-top: #0065FC;
-}
+
 /******************* Body *********************/
+#block1{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+.blocRight img{
+    margin: 10px;
+    width: 300px;
+    height: auto;
+}
+article 
+.containerItem{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3px;
+}
 
 /******************* Footer *******************/
 
