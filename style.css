@@ -12,7 +12,7 @@ a{
 }
 #logo{
     width: auto;
-    height: 70px;
+    height: 50px;
 }
 header nav ul li{
     display: inline-block;
@@ -23,16 +23,59 @@ header nav ul li{
 #block1{
     
     display: flex;
-    justify-content: space-between;
     border-radius: 15px;
 }
-#b-left article{
-    margin-right: 50px;
-    background-color: #F2F2F2;
-    float: left;
+.blockGrey{
+    display: flex;
+    flex-direction: column;
     
 }
+#blockFusion{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    float: left;
+    border-radius: 15px;
+}
+#b-left {
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: #F2F2F2;
+    float: left;
+    border-radius: 15px;
+}
+#b-left2 {
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: #F2F2F2;
+    
+}
+#b-right {
+    margin: 20px;
+    border-radius: 15px;
+    float: right;
+}
+
 .containerItem{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    position: relative;
+}
+.banArticle{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    opacity: 90%;
+}
+.containerItem2{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -46,6 +89,7 @@ header nav ul li{
     width: 185px;
     height: auto;
     border-radius: 15px;
+    background-color: #F2F2F2;
 }
 
 
