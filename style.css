@@ -21,22 +21,34 @@ header nav ul li{
 
 /******************* Body *********************/
 #block1{
-    background-color: #F2F2F2;
+    
     display: flex;
     justify-content: space-between;
+    border-radius: 15px;
 }
-.blocRight img{
-    margin: 10px;
-    width: 300px;
-    height: auto;
+#b-left article{
+    margin-right: 50px;
+    background-color: #F2F2F2;
+    float: left;
+    
 }
-article 
 .containerItem{
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 3px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
 }
+.blocRight img{
+    margin: 10px;
+    width: 185px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
 
 /******************* Footer *******************/
 
