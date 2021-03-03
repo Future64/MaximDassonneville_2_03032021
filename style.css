@@ -1,34 +1,28 @@
+*{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif; 
+}
+a{
+    text-decoration: none;
+}
 /******************* Header *******************/
 #navHead{
     display: flex;
-    
-}
-#navHead ul li{
     justify-content: space-between;
-    flex-direction: row;
 }
-.nonActif{
-    color: #0065FC;
+#logo{
+    width: auto;
+    height: 70px;
 }
-.Actif{
-    color: #F2F2F2;
-}
+nav ul li{
+    display: inline-block;
 
+}
+#heberg{
+    border-top: #0065FC;
+}
 /******************* Body *********************/
-#block1{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-.blockGrey{
-    background-color: #F2F2F2;
-}
-article{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-   
-}
+
 /******************* Footer *******************/
 
 
