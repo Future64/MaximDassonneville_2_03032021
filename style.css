@@ -1,0 +1,34 @@
+/******************* Header *******************/
+#navHead{
+    display: flex;
+    
+}
+#navHead ul li{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nonActif{
+    color: #0065FC;
+}
+.Actif{
+    color: #F2F2F2;
+}
+
+/******************* Body *********************/
+#block1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.blockGrey{
+    background-color: #F2F2F2;
+}
+article{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+/******************* Footer *******************/
+
+
