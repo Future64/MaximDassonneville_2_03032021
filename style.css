@@ -23,6 +23,23 @@ header nav ul li a{
 .actif{
     color: #F2F2F2;
 }
+.search{
+    display: flex;
+    
+    background-color: #F2F2F2;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px;
+}
+input{
+    height: auto;
+    width: 150px;
+}
+button{
+    background-color: #0065FC;
+    color: #ffffff;
+}
 /******************* Body *********************/
 #block1{
     
