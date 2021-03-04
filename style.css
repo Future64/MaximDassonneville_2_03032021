@@ -16,9 +16,13 @@ a{
 }
 header nav ul li{
     display: inline-block;
-
 }
-
+header nav ul li a{
+    color: #0065FC;
+}
+.actif{
+    color: #F2F2F2;
+}
 /******************* Body *********************/
 #block1{
     
@@ -37,10 +41,15 @@ header nav ul li{
     float: left;
     border-radius: 15px;
 }
+#blockFusion h3{
+    margin-left: 31px;
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
 #b-left {
     display: flex;
     justify-content: space-around;
-    
+    height: 200px;
     background-color: #F2F2F2;
     float: left;
     border-radius: 15px;
@@ -48,8 +57,9 @@ header nav ul li{
 #b-left2 {
     display: flex;
     justify-content: space-around;
-    
+    padding-top: auto;
     background-color: #F2F2F2;
+    height: 220px;
     
 }
 #b-right {
@@ -63,37 +73,63 @@ header nav ul li{
     flex-direction: column;
     background-color: white;
     border-radius: 15px;
-    width: 200px;
+    width: 220px;
     height: 200px;
-    padding: 2px;
+    padding: 1px;
     position: relative;
+    margin-bottom: 3px;
 }
 .banArticle{
+    
+    margin-top: 120px;
+    margin-right: 18px;
     background-color: white;
     position: absolute;
     width: 200px;
-    height: 80px;
-    opacity: 90%;
+    height: 75px;
+    opacity: 100%;
+}
+.banArticle p{
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+.bold{
+    font-weight: bold;
 }
 .containerItem2{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 15px 0px;
     width: 200px;
     height: 200px;
     padding: 2px;
 }
 .blocRight img{
-    margin: 10px;
-    width: 185px;
-    height: auto;
-    border-radius: 15px;
+
+    margin: 5px;
+    width: auto;
+    height: 110px;
+    border-radius: 15px 15px 0px 0px;
     background-color: #F2F2F2;
 }
-
-
-
+.fa-star{
+    color: #0065FC;
+    font-size: 13px;
+    margin: 0px;
+}
+#s{
+    color: #F2F2F2;
+}
+.stars{
+    margin-left: 8px;
+    margin-top: 7px;
+}
+#afficherPlus{
+    margin: 15px;
+    padding-bottom: 18px;
+}
 /******************* Footer *******************/
 
 
