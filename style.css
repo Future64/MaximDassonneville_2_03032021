@@ -39,6 +39,8 @@ input{
 button{
     background-color: #0065FC;
     color: #ffffff;
+    border-radius: 0px 15px 15px 0px;
+    height: 40px;
 }
 /******************* Body *********************/
 #block1{
