@@ -169,20 +169,18 @@ button{
 /******************* Body *********************/
 
 #block1{
-    
     display: flex;
     border-radius: 15px;
 }
 .blockGrey{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 #blockFusion{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    float: left;
     border-radius: 15px;
 }
 
@@ -197,33 +195,20 @@ button{
 #b-left {
     display: flex;
     justify-content: space-between;
-    height: 200px;
+    height: 170px;
     background-color: #F2F2F2;
-    float: left;
     border-radius: 15px;
-    margin: 15px 30px 15px 30px;
+    margin: 15px 0px 15px 30px;
+    
 }
 
 #b-left2 {
     display: flex;
     justify-content: space-around;
-    padding-top: auto;
+    padding-top: 0px;
     background-color: #F2F2F2;
-    height: 220px;
-    margin: 15px 30px 15px 30px;
-}
-
-#b-right {
-    margin-top: 0px;
-    border-radius: 15px;
-    float: right;
-    
-}
-
-#b-right article{
-    display: flex;
-    margin: 0px;
-    width: 350px;
+    height: 180px;
+    margin: 0px 0px 15px 30px;
 }
 
 .containerItem{
@@ -238,7 +223,6 @@ button{
 }
 
 .banArticle{
-    background-color: rgb(211, 69, 69);
     border-radius: 0px 0px 15px 15px;
     margin-top: 100px;
     margin-right: 18px;
@@ -260,29 +244,10 @@ button{
     font-weight: bold;
 }
 
-.containerItem2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white;
-    border-radius: 15px;
-    width: 400px;
-    height: 115px;
-    padding: 0px;
-    margin: 13px;
-}
-
-.containerItem2 img{
-    width: 150px;
-    height: 100px;
-    border-radius: 15px 0px 0px 15px;
-    margin: 7px;
-}
-
-.blocRight img{
+.blocLeft img{
     margin: 4px;
     width: auto;
-    height: 110px;
+    height: 90px;
     border-radius: 15px 15px 0px 0px;
     background-color: #F2F2F2;
 }
@@ -303,35 +268,67 @@ button{
 }
 
 #afficherPlus{
-    margin: 0px 0px 0px 20px;
-    padding-bottom: 13px;
+    margin: 0px 0px 40px 30px;
+}
+
+#b-right {
+    margin-top: 0px;
+    border-radius: 15px;
+    float: right;
+}
+
+#b-right .b-item-right{
+    display: flex;
+    margin: 0px;
+    width: 350px;
 }
 
 #blocPopulaire{
-    float: right;
+    display: flex;
+    flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 15px;
     margin-top: 0px; 
-    width: 370px; 
+    margin-left: 30px;
+    width: 325px; 
 }
 
 #blocPopulaire h2{
     margin-left: 31px;
+    margin-right: 10px;
     margin-top: 31px;
-    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.containerItem2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+    width: 270px;
+    height: 110px;
+    margin: 0px 30px 15px 30px;
+}
+
+.containerItem2 img{
+    height: auto;
+    width: 100px;
+    border-radius: 15px 0px 0px 15px;
+    margin: 4px;
 }
 
 .artPopulaire{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: white;
     font-size: 13px;
-    margin: 0px;
+    margin: 4px;
     border-radius: 15px;
 }
-
-.artpopulaire p{
-    
+.artPopulaire p{
+    margin: 4px 0px 3px 8px;
 }
 
 #populaire{
@@ -342,6 +339,10 @@ button{
 .fa-chart-line{
     margin: 30px;
     font-size: 20px;
+    color: black;
+}
+.artPopulaire .stars{
+    margin-top: 28px;
 }
 /******************* Footer *******************/
 
