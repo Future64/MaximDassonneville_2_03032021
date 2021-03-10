@@ -47,22 +47,33 @@ h1{
 form{
     display: flex;
     background-color: #F2F2F2;
-    width: 340px;
+    width: 330px;
     height: 43px;
     border-radius: 15px;
 }
+
 .z-info{
     display: flex;
     justify-content: center;
     height: auto;
     width: 40px;
-    margin-top: 15px;
-    font-size: 14px;
+    margin-top: 13px;
+}
+
+.div-input{
+    display: flex;
+    justify-content: flex-end;
+    height: 39px;
+    width: 185px;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: white;
 }
 
 input{
     height: auto;
-    width: 185px;
+    width: 170px;
     border: none;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -84,14 +95,15 @@ button{
     border: none;
     font-size: 15px;
 }
+
 .zoneFilter{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
     width: 770px;
     height: auto;
-    
 }
+
 .zoneFilter p{
     margin-top: 15px;
     font-weight: bold;
@@ -105,17 +117,13 @@ button{
     position: relative;
     height: 40px;
     width: auto;
-    
 }
 .div-filter p{
-    
     margin: 11px;
     font-weight: bold;
     font-size: 15px;
-    
 }
 .pastille-filter{
-    
     border-radius: 100px;
     background-color: #DEEBFF;
     padding: 10px;
@@ -123,10 +131,38 @@ button{
     height: 20px;
     text-align: center;
 }
+
 .fas{
     color: #0065FC;
     font-size: 18px;
 }
+
+.fa-map-marker-alt{
+    color:black;
+    font-size: 15px;
+}
+
+.zoneInfo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.zoneInfo p{
+ font-size: 12px;
+ margin-top: 15px;
+}
+
+.logo-info{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 80px;
+    margin: 10px 10px 25px 0px;
+}
+
+.fa-info{
+    font-size: 9px;
+    margin: 0px 7px 4px 7px;
+} 
 /******************* Body *********************/
 #block1{
     
