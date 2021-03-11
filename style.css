@@ -344,6 +344,79 @@ button{
 .artPopulaire .stars{
     margin-top: 28px;
 }
+
+/*------------------*/
+
+.block2{
+ 
+}
+
+.block2 h2{
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bloc-act{
+    position: relative;
+    display: flex;
+    background-color: rgb(159, 65, 65);
+}
+
+.bloc-act p{
+    margin: 15px;
+}
+
+.photo-act{
+    display: flex;
+    
+}
+
+.photo-act img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.photo-act div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    
+}
+
+.double-photo{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.alone-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 200px;
+}
+
+.big-photo{
+    height: 300px;
+}
+
+.medium-photo{
+    height: 200px;
+}
+
+.litle-photo{
+    height: 150px;
+}
+
 /******************* Footer *******************/
 
-
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: brown;
+}
