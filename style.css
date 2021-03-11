@@ -463,13 +463,21 @@ button:hover{
     width: 100%;
 }
 
+.cont-1:hover{
+    opacity: 60%;
+}
+
 .cont-2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .cont-2 img{
-    height: 170px;
+    height: 185px;
     width: 100%;
+}
+
+.cont-2:hover{
+    opacity: 60%;
 }
 
 .cont-b-2 img{
@@ -477,11 +485,40 @@ button:hover{
     width: 100%;
 }
 
+.cont-b-2:hover{
+    opacity: 60%;
+}
+
 .cont-3 img{
     height: 350px;
     width: 100%;
 }
 
+.cont-3:hover{
+    opacity: 60%;
+}
+
+.cont-4{
+    margin-bottom: 27px;
+}
+
+.cont-4:hover{
+    opacity: 60%;
+}
+
+.cont-4 img{
+    height: 130px;
+    width: 100%;
+}
+
+.cont-b-4 img{
+    height: 150px;
+    width: 100%;
+}
+
+.cont-b-4:hover{
+    opacity: 60%;
+}
 /******************* Footer *******************/
 
 footer{
