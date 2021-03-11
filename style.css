@@ -3,7 +3,7 @@ a{
     text-decoration: none;
 }
 body{
-    
+
     font-family: 'Raleway', sans-serif; 
 }
 
@@ -11,6 +11,7 @@ header{
     margin: 20px 50px 10px 50px;
 }
 main{
+
     margin: 20px 50px 50px 50px;
 }
 
@@ -40,6 +41,12 @@ header nav ul li a{
 
 .actif{
     color: #F2F2F2;
+}
+
+.blue-signal{
+    height: 3px;
+    width: 130px;
+    background-color: #0065FC;
 }
 
 h1{
@@ -390,6 +397,7 @@ button{
     background-color: white;
     padding: 0px;
 }
+
 .title-photo{
     background-color: white;
     height: 30px;
@@ -404,10 +412,10 @@ button{
 .cont-1{
 
 }
+
 .cont-1 img{
     height: 350px;
     width: 100%;
-
 }
 
 .cont-2{
