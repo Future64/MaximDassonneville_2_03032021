@@ -39,6 +39,10 @@ header nav ul li a{
     font-size: 13px;
 }
 
+header a:hover{
+    opacity: 60%;
+}
+
 .actif{
     color: #F2F2F2;
 }
@@ -112,6 +116,19 @@ button{
     font-size: 15px;
 }
 
+button:focus {
+    outline:0;
+}
+
+input:focus {
+    outline:0;
+}
+
+button:hover{
+opacity: 70%;
+
+}
+
 .zoneFilter{
     display: flex;
     justify-content: space-between;
@@ -124,6 +141,12 @@ button{
     margin-top: 15px;
     font-weight: bold;
     font-size: 15px;
+    color: black;
+}
+
+
+.div-filter:hover{
+    opacity: 60%;
 }
 .div-filter{
     display: flex;
@@ -134,11 +157,13 @@ button{
     height: 40px;
     width: auto;
 }
+
 .div-filter p{
     margin: 11px;
     font-weight: bold;
     font-size: 15px;
 }
+
 .pastille-filter{
     border-radius: 100px;
     background-color: #DEEBFF;
@@ -258,6 +283,14 @@ button{
     font-weight: bold;
 }
 
+.blocLeft p{
+   color: black;
+}
+
+.blocLeft:hover{
+    opacity: 60%;
+}
+
 .blocLeft img{
     margin: 4px;
     width: auto;
@@ -281,17 +314,33 @@ button{
     margin-top: 7px;
 }
 
-#afficherPlus{
+.afficherPlus{
     margin: 0px 0px 40px 30px;
 }
 
-#b-right {
+.afficherPlus p{
+    color: black;
+}
+
+.afficherPlus p:hover{
+    opacity: 60%;
+}
+
+.b-right {
     margin-top: 0px;
     border-radius: 15px;
     float: right;
 }
 
-#b-right .b-item-right{
+.b-right p{
+    color: black;
+}
+
+.containerItem2:hover{
+    opacity: 70%;
+}
+
+.b-right .b-item-right{
     display: flex;
     margin: 0px;
     width: 350px;
@@ -457,4 +506,9 @@ footer p{
 footer li{
     margin-bottom: 10px;
     font-size: 13px;
+    color: black;
+}
+
+footer li:hover{
+    opacity: 60%;
 }
