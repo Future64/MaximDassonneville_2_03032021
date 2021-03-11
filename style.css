@@ -3,8 +3,15 @@ a{
     text-decoration: none;
 }
 body{
-    margin: 20px 50px 50px 50px;
+    
     font-family: 'Raleway', sans-serif; 
+}
+
+header{
+    margin: 20px 50px 10px 50px;
+}
+main{
+    margin: 20px 50px 50px 50px;
 }
 
 /******************* Header *******************/
@@ -416,7 +423,27 @@ button{
 
 footer{
     display: flex;
+    
     width: 100%;
     height: auto;
-    background-color: brown;
+    background-color: #F2F2F2;
+    padding: 50px 0px 50px 50px;
+}
+footer nav{
+   margin-right: 200px;
+
+}
+
+.a-propos{
+    margin-left: 40px;
+}
+
+footer p{
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+footer li{
+    margin-bottom: 10px;
+    font-size: 13px;
 }
