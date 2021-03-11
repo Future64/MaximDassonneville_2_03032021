@@ -3,15 +3,14 @@ a{
     text-decoration: none;
 }
 body{
-
     font-family: 'Raleway', sans-serif; 
 }
 
 header{
     margin: 20px 50px 10px 50px;
 }
-main{
 
+main{
     margin: 20px 50px 50px 50px;
 }
 
@@ -125,8 +124,7 @@ input:focus {
 }
 
 button:hover{
-opacity: 70%;
-
+    opacity: 70%;   
 }
 
 .zoneFilter{
@@ -189,8 +187,8 @@ opacity: 70%;
 }
 
 .zoneInfo p{
- font-size: 12px;
- margin-top: 15px;
+    font-size: 12px;
+    margin-top: 15px;
 }
 
 .logo-info{
@@ -238,7 +236,6 @@ opacity: 70%;
     background-color: #F2F2F2;
     border-radius: 15px;
     margin: 15px 0px 15px 30px;
-    
 }
 
 #b-left2 {
@@ -279,12 +276,13 @@ opacity: 70%;
     margin-bottom: 4px;
     margin-left: 5px;
 }
+
 .bold{
     font-weight: bold;
 }
 
 .blocLeft p{
-   color: black;
+    color: black;
 }
 
 .blocLeft:hover{
@@ -390,6 +388,7 @@ opacity: 70%;
     margin: 4px;
     border-radius: 15px;
 }
+
 .artPopulaire p{
     margin: 4px 0px 3px 8px;
 }
@@ -424,7 +423,6 @@ opacity: 70%;
 
 .bloc-act{
     display: flex;
-    
 }
 
 .b-act{
@@ -439,6 +437,7 @@ opacity: 70%;
 .b-act img{
     border-radius: 15px 15px 0px 0px;
 }
+
 .ba{
     border: solid;
     border-radius: 15px;
@@ -458,9 +457,6 @@ opacity: 70%;
     font-size: 14px;
     margin: 5px 13px 0px 10px;
 }
-.cont-1{
-
-}
 
 .cont-1 img{
     height: 350px;
@@ -470,6 +466,7 @@ opacity: 70%;
 .cont-2{
     margin-bottom: 30px;
 }
+
 .cont-2 img{
     height: 170px;
     width: 100%;
@@ -484,6 +481,7 @@ opacity: 70%;
     height: 350px;
     width: 100%;
 }
+
 /******************* Footer *******************/
 
 footer{
@@ -494,6 +492,7 @@ footer{
     padding: 50px 0px 50px 50px;
     margin-bottom: 0px;
 }
+
 footer nav{
    margin-right: 200px;
 }
@@ -503,6 +502,7 @@ footer p{
     font-weight: bolder;
     font-size: 15px;
 }
+
 footer li{
     margin-bottom: 10px;
     font-size: 13px;
