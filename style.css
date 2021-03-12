@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    margin: 20px 50px 10px 50px;
+    margin: 0px 50px 10px 50px;
     width: 1080px;
 }
 
@@ -27,17 +27,22 @@ main{
 #logo{
     width: auto;
     height: 36px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 header nav ul li{
     display: inline-block;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
+    
 }
 
 header nav ul li a{
     color: #0065FC;
     font-size: 13px;
+}
+
+#grey-act{
+    color: black
 }
 
 header a:hover{
@@ -52,6 +57,7 @@ header a:hover{
     height: 3px;
     width: 130px;
     background-color: #0065FC;
+    margin-bottom: 20px;
 }
 
 h1{
