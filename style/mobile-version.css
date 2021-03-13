@@ -1,0 +1,100 @@
+@media screen and (max-width: 425px) {
+
+    main{
+        margin: 0px;
+        width: 425px;
+    }
+
+    header{
+        margin: 0px 50px 10px 20px;
+        width: 420px;
+    }
+    
+    #navList{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 300px;
+    }
+
+    .zoneInfo{
+        width: 300px;
+    }
+
+    .zoneInfo p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #block1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 125px;
+        
+    }
+
+    .blockGrey{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 425px;
+        border-radius: 0;
+    }
+    
+    #blocPopulaire{
+        border-radius: 0px;
+        margin-left: 0px;
+        width: 415px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .containerItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: auto;
+        margin-bottom: 75px;
+    }
+
+    .containerItem2{
+        width: 310px;
+        height: 110px;
+        margin-left: 18px;
+    }
+    
+    #blockFusion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+
+    }
+     
+    #b-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: auto;
+    }
+
+    #b-left2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+        height: auto;
+    }
+
+    footer{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    footer nav{
+        margin-bottom: 30px;
+        
+    }
+}

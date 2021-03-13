@@ -216,6 +216,7 @@ button:hover{
     display: flex;
     border-radius: 15px;
 }
+
 .blockGrey{
     display: flex;
     justify-content: space-between;
@@ -343,10 +344,6 @@ button:hover{
     color: black;
 }
 
-.containerItem2:hover{
-    opacity: 70%;
-}
-
 .b-right .b-item-right{
     display: flex;
     margin: 0px;
@@ -386,6 +383,10 @@ button:hover{
     width: 100px;
     border-radius: 15px 0px 0px 15px;
     margin: 4px;
+}
+
+.containerItem2:hover{
+    opacity: 70%;
 }
 
 .artPopulaire{
