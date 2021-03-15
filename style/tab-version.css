@@ -1,5 +1,576 @@
 @media screen and (min-width: 425px) and and (max-width: 1024px){
 
+    a{
+        text-decoration: none;
+    }
 
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    header{
+        margin: 0px 50px 10px 50px;
+        width: 1080px;
+    }
+
+    main{
+        margin: 20px 50px 50px 50px;
+    }
+
+    /******************* Header *******************/
+
+    #navHead{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    #logo{
+        width: auto;
+        height: 36px;
+        margin-top: 35px;
+    }
+
+    .nav-signal{
+        display: flex;
+    }
+
+    #navList{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .blue-signal{
+        height: 3px;
+        width: 130px;
+        background-color: #0065FC;
+        margin-bottom: 20px;
+    }
+
+    .li-bold{
+        display: flex;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        margin: 20px 20px 20px 20px;
+    }
+
+    header nav ul li a{
+        color: #0065FC;
+        font-size: 13px;
+    }
+
+    #grey-act{
+        color: black
+    }
+
+    header a:hover{
+        opacity: 60%;
+    }
+
+    .actif{
+        color: #F2F2F2;
+    }
+
+    h1{
+        margin-top: 26px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .s-title{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    form{
+        display: flex;
+        background-color: #F2F2F2;
+        width: 330px;
+        height: 43px;
+        border-radius: 15px;
+    }
+
+    .z-info{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 40px;
+        margin-top: 13px;
+    }
+
+    .div-input{
+        display: flex;
+        justify-content: flex-end;
+        height: 39px;
+        width: 185px;
+        border: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        background-color: white;
+    }
+
+    input{
+        height: auto;
+        width: 170px;
+        border: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    input::placeholder{
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+
+    button{
+        background-color: #0065FC;
+        color: #ffffff;
+        border-radius: 0px 15px 15px 0px;
+        height: auto;
+        width: 110px;
+        border: none;
+        font-size: 15px;
+    }
+
+    button:focus {
+        outline:0;
+    }
+
+    input:focus {
+        outline:0;
+    }
+
+    button:hover{
+        opacity: 70%;   
+    }
+
+    .zoneFilter{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        width: 770px;
+        height: auto;
+    }
+
+    .zoneFilter p{
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+    }
+
+    .div-filter:hover{
+        opacity: 60%;
+    }
+
+    .div-filter{
+        display: flex;
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 50px;
+        position: relative;
+        height: 40px;
+        width: auto;
+    }
+
+    .div-filter p{
+        margin: 11px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .pastille-filter{
+        border-radius: 100px;
+        background-color: #DEEBFF;
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .fas{
+        color: #0065FC;
+        font-size: 18px;
+    }
+
+    .fa-map-marker-alt{
+        color:black;
+        font-size: 15px;
+    }
+
+    .zoneInfo{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .zoneInfo p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .logo-info{
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 80px;
+        margin: 10px 10px 25px 0px;
+    }
+
+    .fa-info{
+        font-size: 9px;
+        margin: 0px 7px 4px 7px;
+    } 
+
+    /******************* Body *********************/
+
+    #block1{
+        display: flex;
+        border-radius: 15px;
+    }
+
+    .blockGrey{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #blockFusion{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+    }
+
+    #blockFusion h2{
+        margin-left: 31px;
+        margin-top: 31px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #b-left {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 170px;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin: 15px 0px 15px 30px;
+    }
+
+    #b-left2 {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        background-color: #F2F2F2;
+        height: 180px;
+        margin: 0px 0px 15px 30px;
+    }
+
+    .containerItem{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 15px;
+        width: 200px;
+        height: 160px;
+        position: relative;
+        margin: 0px 25px 0px 0px;
+    }
+
+    .banArticle{
+        border-radius: 0px 0px 15px 15px;
+        margin-top: 100px;
+        margin-right: 18px;
+        padding-left: 0px;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        opacity: 100%;
+    }
+
+    .banArticle p{
+        font-size: 13px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
+
+    .blocLeft p{
+        color: black;
+    }
+
+    .blocLeft:hover{
+        opacity: 60%;
+    }
+
+    .blocLeft img{
+        margin: 4px;
+        width: auto;
+        height: 90px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: #F2F2F2;
+    }
+
+    .fa-star{
+        color: #0065FC;
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    #s{
+        color: #F2F2F2;
+    }
+
+    .stars{
+        margin-left: 8px;
+        margin-top: 7px;
+    }
+
+    .afficherPlus{
+        margin: 0px 0px 40px 30px;
+    }
+
+    .afficherPlus p{
+        color: black;
+    }
+
+    .afficherPlus p:hover{
+        opacity: 60%;
+    }
+
+    .b-right {
+        margin-top: 0px;
+        border-radius: 15px;
+        float: right;
+    }
+
+    .b-right p{
+        color: black;
+    }
+
+    .b-right .b-item-right{
+        display: flex;
+        margin: 0px;
+        width: 350px;
+    }
+
+    #blocPopulaire{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin-top: 0px; 
+        margin-left: 30px;
+        width: 325px; 
+    }
+
+    #blocPopulaire h2{
+        margin-left: 31px;
+        margin-right: 10px;
+        margin-top: 31px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .containerItem2{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 15px;
+        width: 270px;
+        height: 110px;
+        margin: 0px 30px 15px 30px;
+    }
+
+    .containerItem2 img{
+        height: auto;
+        width: 100px;
+        border-radius: 15px 0px 0px 15px;
+        margin: 4px;
+    }
+
+    .containerItem2:hover{
+        opacity: 70%;
+    }
+
+    .artPopulaire{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        font-size: 13px;
+        margin: 4px;
+        border-radius: 15px;
+    }
+
+    .artPopulaire p{
+        margin: 4px 0px 3px 8px;
+    }
+
+    #populaire{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-chart-line{
+        margin: 30px;
+        font-size: 20px;
+        color: black;
+    }
+    .artPopulaire .stars{
+        margin-top: 28px;
+    }
+
+    /*------------------*/
+
+    .block2{
+        margin-bottom: 0px;
+    }
+
+    .block2 h2{
+        display: flex;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .bloc-act{
+        display: flex;
+    }
+
+    .b-act{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 260px;
+        margin: 25px 18px 25px 0px;
+        border-radius: 15px;
+    }
+
+    .b-act img{
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .ba{
+        
+        border-radius: 15px;
+        background-color: white;
+        padding: 0px;
+        box-shadow: 0px 2px 2px 2px #F2F2F2;
+    }
+
+    .title-photo{
+        background-color: white;
+        height: 30px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .title-photo p{
+        font-weight: bold;
+        font-size: 14px;
+        margin: 5px 13px 0px 10px;
+    }
+
+    .cont-1 img{
+        height: 350px;
+        width: 100%;
+    }
+
+    .cont-1:hover{
+        opacity: 60%;
+    }
+
+    .cont-2{
+        margin-bottom: 27px;
+    }
+
+    .cont-2 img{
+        height: 185px;
+        width: 100%;
+    }
+
+    .cont-2:hover{
+        opacity: 60%;
+    }
+
+    .cont-b-2 img{
+        height: 100px;
+        width: 100%;
+    }
+
+    .cont-b-2:hover{
+        opacity: 60%;
+    }
+
+    .cont-3 img{
+        height: 350px;
+        width: 100%;
+    }
+
+    .cont-3:hover{
+        opacity: 60%;
+    }
+
+    .cont-4{
+        margin-bottom: 31px;
+    }
+
+    .cont-4:hover{
+        opacity: 60%;
+    }
+
+    .cont-4 img{
+        height: 130px;
+        width: 100%;
+    }
+
+    .cont-b-4 img{
+        height: 150px;
+        width: 100%;
+    }
+
+    .cont-b-4:hover{
+        opacity: 60%;
+    }
+    /******************* Footer *******************/
+
+    footer{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #F2F2F2;
+        padding: 50px 0px 50px 50px;
+        margin-bottom: 0px;
+    }
+
+    footer nav{
+    margin-right: 200px;
+    }
+
+    footer p{
+        margin-bottom: 15px;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    footer li{
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: black;
+    }
+
+    footer li:hover{
+        opacity: 60%;
+    }
 
 }
