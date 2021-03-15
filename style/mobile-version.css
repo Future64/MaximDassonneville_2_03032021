@@ -1,8 +1,11 @@
-@media screen and (max-width: 525px) {
+@media all and (max-width: 768px) {
 
+    body{
+
+    }
     main{
         margin: 0px;
-        width: 425px;
+
     }
 
     header{
@@ -36,6 +39,7 @@
     .navList a{
         font-size: 17px;
     }
+
     .nav-signal{
         display: flex;
     }
@@ -75,7 +79,8 @@
 
     .insc{
         position: absolute;
-        margin-left: 350px;
+        margin-left: 300px;
+        margin
     }
     
     .z-info{
@@ -225,10 +230,19 @@
         width: 280px;
         height: auto;
     }
+    .block2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc-act{
+        display: flex;
+        flex-direction: column;
+    }
 
     footer{
         flex-direction: column;
-        width: 100%;
+        width: 425px;
         padding-left: 20px;
         padding-bottom: 10px;
     }

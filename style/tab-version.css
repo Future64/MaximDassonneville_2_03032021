@@ -1,5 +1,254 @@
 @media screen and (min-width: 425px) and and (max-width: 1024px){
 
+    body{
+        
+    }
+    main{
+        margin: 0px;
+        width: 100%;
+        
+    }
+
+    header{
+        margin: 0px 20px 20px 20px;
+    }
     
+    #navHead{
+        display: flex;
+    }
+
+    h1{
+        font-size: 22px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    #navList{
+         
+    }
+
+    .ul-nav-Head{
+        position: relative;
+    }
+
+    #logo{
+        position: fixed;
+        width: auto;
+        height: 46px;
+        margin-top: 25px;
+    }
+
+    .navList a{
+        font-size: 17px;
+    }
+    .nav-signal{
+        display: flex;
+    }
+
+    .nav-act{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    .h-nav{
+        padding-top: 50px;
+    }
+
+    .bold{
+        margin-bottom: 20px;
+    }
+
+    .blue-signal{
+        display: none;
+    }
+
+    .blue-signal2{
+        height: 3px;
+        width: 130px;
+        background-color: #0065FC;
+        margin-top: 10px;
+    }
+
+    .grey-signal{
+        height: 3px;
+        width: 130px;
+        background-color: #F2F2F2;
+        margin-top: 10px;
+    }
+
+    .insc{
+        position: absolute;
+        margin-left: 300px;
+        margin
+    }
+    
+    .z-info{
+        width: 50px;
+        margin-top: 18px;
+    }
+
+    .z-info i{
+        font-size: 18px;
+    }
+
+    form{
+        height: 53px;
+        margin-top: 30px;
+    }
+
+    .div-input{
+        display: flex;
+        justify-content: flex-end;
+        height: 49px;
+        width: 485px;
+        border: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        background-color: white;
+    }
+
+    input{
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    button{
+        width: 110px;
+        border-radius: 15px;
+        margin-left: -20px;
+    }
+
+    button p{
+        display: none;
+    }
+
+    .fa-search{
+        
+        display: block;
+        color: white;
+        padding: 8px;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .zoneInfo{
+        width: 300px;
+    }
+
+    .zoneInfo p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .zoneFilter{
+        justify-items: flex-start;
+        flex-wrap: wrap;
+        width: 280px;
+        
+    }
+
+    .filter{
+        margin-right: 200px;
+        margin-bottom: 10px;
+    }
+
+    .div-filter{
+        
+        margin-top: 10px;
+    }
+
+    #block1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 125px;
+    }
+
+    .blockGrey{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 425px;
+        border-radius: 0;
+    }
+    
+    #blocPopulaire{
+        border-radius: 0px;
+        margin-left: 0px;
+        width: 415px;
+        
+        justify-content: space-between;
+    }
+    .containerItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: auto;
+        margin-bottom: 75px;
+    }
+
+    .containerItem2{
+        width: 360px;
+        height: 130px;
+        margin-left: 18px;
+    }
+
+    .containerItem2 img{
+        height: 122px;
+        width: 120px;
+        object-fit: cover;
+        border-radius: 15px 0px 0px 15px;
+        margin: 4px;
+    }
+    
+    #blockFusion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+
+    }
+     
+    #b-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: auto;
+    }
+    
+    .bold{
+        font-size: 15px;
+    }
+
+    #b-left2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+        height: auto;
+    }
+    .block2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc-act{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        width: 425px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    footer nav{
+        margin-bottom: 30px; 
+    }
 
 }
