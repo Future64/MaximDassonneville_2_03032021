@@ -8,25 +8,37 @@ body{
 }
 
 header{
-    margin: 0px 50px 10px 50px;
-    width: 1070px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
-    margin: 20px 50px 50px 50px;
+    /*margin: 20px 50px 50px 50px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /******************* Header *******************/
 
 #navHead{
     display: flex;
-    justify-content: space-between;
 }
 
 #logo{
     width: auto;
     height: 36px;
     margin-top: 35px;
+    margin-right: 680px;
+}
+
+.header-form{
+
 }
 
 .insc{
@@ -78,6 +90,10 @@ header a:hover{
 
 .actif{
     color: #F2F2F2;
+}
+
+.header-form{
+    width: 67em;
 }
 
 h1{
@@ -246,9 +262,10 @@ button:hover{
 
 /******************* Body *********************/
 
-#block1{
+.block1{
     display: flex;
     border-radius: 15px;
+    width: fit-content;
 }
 
 .blockGrey{
@@ -257,14 +274,14 @@ button:hover{
     flex-wrap: wrap;
 }
 
-#blockFusion{
+.blockFusion{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
 
-#blockFusion h2{
+.blockFusion h2{
     margin-left: 31px;
     margin-top: 31px;
     margin-bottom: 0px;
@@ -272,7 +289,7 @@ button:hover{
     font-size: 18px;
 }
 
-#b-left {
+.b-left {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -282,7 +299,7 @@ button:hover{
     margin: 15px 0px 15px 30px;
 }
 
-#b-left2 {
+.b-left2 {
     display: flex;
     justify-content: space-around;
     padding-top: 0px;
@@ -385,7 +402,7 @@ button:hover{
     width: 350px;
 }
 
-#blocPopulaire{
+.blocPopulaire{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -395,7 +412,7 @@ button:hover{
     width: 325px; 
 }
 
-#blocPopulaire h2{
+.blocPopulaire h2{
     margin-left: 31px;
     margin-right: 10px;
     margin-top: 31px;
@@ -458,6 +475,8 @@ button:hover{
 .block2{
     margin-bottom: 0px;
     width: 1080px;
+
+
 }
 
 .block2 h2{
@@ -576,7 +595,10 @@ button:hover{
 
 footer{
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: auto;
     background-color: #F2F2F2;
     padding: 50px 0px 50px 50px;
@@ -585,6 +607,10 @@ footer{
 
 footer nav{
    margin-right: 200px;
+}
+
+.foot-container{
+    display: flex;
 }
 
 footer p{
