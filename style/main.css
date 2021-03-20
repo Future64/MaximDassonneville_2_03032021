@@ -37,10 +37,6 @@ main{
     margin-right: 680px;
 }
 
-.header-form{
-
-}
-
 .insc{
     margin-top: 28px;
 }
@@ -159,13 +155,14 @@ button{
     font-size: 15px;
 }
 
-button p{
-    margin-top: 12px;
-}
-
 .fa-search{
     display: none;
 }
+
+button p{
+    margin-bottom: 55px;
+}
+
 
 button:focus {
     outline:0;
@@ -178,6 +175,7 @@ input:focus {
 button:hover{
     opacity: 70%;   
 }
+
 
 .zoneFilter{
     display: flex;
@@ -272,7 +270,8 @@ button:hover{
 .blockGrey{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    width: 1080px;
 }
 
 .blockFusion{
@@ -348,7 +347,7 @@ button:hover{
 }
 
 .blocLeft:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .blocLeft img{
@@ -440,7 +439,7 @@ button:hover{
 }
 
 .containerItem2:hover{
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .artPopulaire{
@@ -532,7 +531,7 @@ button:hover{
 }
 
 .cont-1:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .cont-2{
@@ -546,7 +545,7 @@ button:hover{
 }
 
 .cont-2:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .cont-b-2 img{
@@ -556,7 +555,7 @@ button:hover{
 }
 
 .cont-b-2:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .cont-3 img{
@@ -566,7 +565,7 @@ button:hover{
 }
 
 .cont-3:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .cont-4{
@@ -574,7 +573,7 @@ button:hover{
 }
 
 .cont-4:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .cont-4 img{
@@ -590,8 +589,9 @@ button:hover{
 }
 
 .cont-b-4:hover{
-    opacity: 60%;
+    opacity: 80%;
 }
+
 /******************* Footer *******************/
 
 footer{
