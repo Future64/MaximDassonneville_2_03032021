@@ -8,12 +8,11 @@ body{
 }
 
 header{
-    
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 main{
@@ -37,17 +36,44 @@ main{
     margin-right: 680px;
 }
 
+#logo:hover{
+    opacity: 60%;
+    transition-duration: 3ms;
+}
+
 .insc{
     margin-top: 28px;
 }
 
 .nav-signal{
     display: flex;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .navList{
     display: flex;
+}
+
+.h-nav{
+    padding-top: 41px;
+    margin-top: 0;
+    border-top: solid 3px #F2F2F2;
+}
+
+.h-nav:hover{
+    border-top: solid 3px #0065FC ;
+    transition-duration: 3ms;
+}
+
+.nav-act{
+    padding-top: 22px;
+    margin-top: 0;
+    border-top: solid 3px #F2F2F2;
+}
+
+.nav-act:hover{
+    border-top: solid 3px #0065FC;
+    transition-duration: 3ms;
 }
 
 .blue-signal{
@@ -61,6 +87,7 @@ main{
 .ul-nav-Head{
     display: flex;
     width: 320px;
+    margin-top: 0;
 }
 
 .li-bold{
@@ -80,8 +107,9 @@ header nav ul li a{
     color: black
 }
 
-header a:hover{
+.navList a:hover{
     opacity: 60%;
+    transition-duration: 3ms;
 }
 
 .actif{
@@ -160,22 +188,30 @@ button{
 }
 
 button p{
-    margin-bottom: 55px;
+    margin-top: -18px;
 }
 
 
 button:focus {
     outline:0;
+    transition-duration: 3ms;
 }
 
 input:focus {
     outline:0;
+    transition-duration: 3ms;
 }
+
 
 button:hover{
-    opacity: 70%;   
+    opacity: 70%;
+    transition-duration: 3ms;   
 }
 
+.zoneSearch a:hover{
+    opacity: 50%;
+    transition-duration: 3ms; 
+}
 
 .zoneFilter{
     display: flex;
@@ -197,6 +233,7 @@ button:hover{
 
 .div-filter:hover{
     opacity: 60%;
+    transition-duration: 3ms;
 }
 
 .div-filter{
@@ -348,6 +385,7 @@ button:hover{
 
 .blocLeft:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .blocLeft img{
@@ -384,6 +422,7 @@ button:hover{
 
 .afficherPlus p:hover{
     opacity: 60%;
+    transition-duration: 3ms;
 }
 
 .b-right {
@@ -440,6 +479,7 @@ button:hover{
 
 .containerItem2:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .artPopulaire{
@@ -505,7 +545,6 @@ button:hover{
 }
 
 .ba{
-    
     border-radius: 15px;
     background-color: white;
     padding: 0px;
@@ -532,6 +571,7 @@ button:hover{
 
 .cont-1:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .cont-2{
@@ -546,6 +586,7 @@ button:hover{
 
 .cont-2:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .cont-b-2 img{
@@ -566,6 +607,7 @@ button:hover{
 
 .cont-3:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .cont-4{
@@ -574,6 +616,7 @@ button:hover{
 
 .cont-4:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 .cont-4 img{
@@ -590,6 +633,7 @@ button:hover{
 
 .cont-b-4:hover{
     opacity: 80%;
+    transition-duration: 3ms;
 }
 
 /******************* Footer *******************/
@@ -628,4 +672,5 @@ footer li{
 
 footer li:hover{
     opacity: 60%;
+    transition-duration: 3ms;
 }
