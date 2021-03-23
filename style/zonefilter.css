@@ -1,0 +1,29 @@
+/* titre + liens */
+/*.zoneFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.zoneFilter .filter {
+    margin: 0;
+}*/
+
+/* div des liens */
+/*.filters-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}*/
+
+/*@media screen and (max-width: 450px) {
+    .zoneFilter, .filters-title {
+        justify-content: flex-start;
+        width: 100%;
+    }*/
+}

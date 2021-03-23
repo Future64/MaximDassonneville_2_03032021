@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/tab-version.css">
     <link rel="stylesheet" href="./style/mobile-version.css">
+    <link rel="stylesheet" href="./style/zonefilter.css">
     <script src="https://kit.fontawesome.com/7efc2eaea2.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -45,56 +46,58 @@
                 <p class="s-title">En plein centre ville ou en pleine nature</p>
                 <div class="zoneSearch">
                     <form action="#" method="POST">
-                        <a href="#">
+                        <label for="rechercher">
                             <div class="z-info">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                        </a>
+                        </label>
                         <div class="div-input">
-                            <input type="text" placeholder="Marseille, France">
+                            <input id="rechercher" type="text" placeholder="Marseille, France">
                         </div>   
                         <button>
-                            <span>
+                            <span class="loupe">
                                 <i class="fas fa-search"></i>
                             </span>
-                            <p>Rechercher</p>
+                            <span class="textBtn">Rechercher</span>
                         </button>
                     </form>
                 </div>
                 <div class="zoneFilter">
                     <p class="filter">Filtres</p>
-                    <a href="#">
-                        <div class="div-filter">
-                            <div class="pastille-filter">
-                                <i class="fas fa-money-bill-wave"></i>
+                    <div class="filters-title">
+                        <a href="#">
+                            <div class="div-filter">
+                                <div class="pastille-filter">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                                <p>Economique</p>
                             </div>
-                            <p>Economique</p>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="div-filter">
-                            <div class="pastille-filter">
-                                <i class="fas fa-child"></i>
+                        </a>
+                        <a href="#">
+                            <div class="div-filter">
+                                <div class="pastille-filter">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <p>Familial</p>
+                            </div>     
+                        </a>
+                        <a href="#">
+                            <div class="div-filter">
+                                <div class="pastille-filter">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <p>Romantique</p>
                             </div>
-                            <p>Familial</p>
-                        </div>     
-                    </a>
-                    <a href="#">
-                        <div class="div-filter">
-                            <div class="pastille-filter">
-                                <i class="fas fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <div class="div-filter">
+                                <div class="pastille-filter">
+                                    <i class="fas fa-dog"></i>
+                                </div>
+                                <p>Animaux autorisés</p>
                             </div>
-                            <p>Romantique</p>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="div-filter">
-                            <div class="pastille-filter">
-                                <i class="fas fa-dog"></i>
-                            </div>
-                            <p>Animaux autorisés</p>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
                 <div class="zoneInfo">
                     <div class="logo-info">

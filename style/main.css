@@ -34,11 +34,11 @@ main{
     height: 36px;
     margin-top: 35px;
     margin-right: 680px;
+    transition: 0.3s;
 }
 
 #logo:hover{
     opacity: 60%;
-    transition-duration: 3ms;
 }
 
 .insc{
@@ -58,11 +58,11 @@ main{
     padding-top: 41px;
     margin-top: 0;
     border-top: solid 3px #F2F2F2;
+    transition: 0.3s;
 }
 
 .h-nav:hover{
     border-top: solid 3px #0065FC ;
-    transition-duration: 3ms;
 }
 
 .nav-act{
@@ -140,6 +140,10 @@ form{
     border-radius: 15px;
 }
 
+form label {
+    cursor: pointer;
+}
+
 .z-info{
     display: flex;
     justify-content: center;
@@ -181,15 +185,25 @@ button{
     width: 110px;
     border: none;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loupe {
+    display: none;
+}
+
+.textBtn {
+    margin: 0 auto;
 }
 
 .fa-search{
     display: none;
 }
 
-button p{
-    margin-top: -18px;
-}
+
 
 
 button:focus {
@@ -213,9 +227,12 @@ button:hover{
     transition-duration: 3ms; 
 }
 
-.zoneFilter{
+.zoneFilter {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 25px;
     width: 770px;
     height: auto;
@@ -227,6 +244,20 @@ button:hover{
     font-size: 15px;
     color: black;
 }
+
+.zoneFilter .filter {
+    margin: 0;
+}
+
+.filters-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
 .zoneFilter a{
     position: relative;
 }
