@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1160px) {
     
     #logo{
-        margin-right: 200px;
+        margin-right: 325px;
     }
 
     .header-form{
@@ -19,39 +19,55 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        
+    }
+
+    .zoneFilter{
+        width: 718px;
     }
 
     .blockGrey{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        align-items: center;
-        width: 768px;
+        
+        width: 718px;
         border-radius: 0;
+        
     }
 
     .b-right{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    #populaire{
+        width: 718px;
         
     }
     
     .containerItem2{
-        width: 14em;
-        margin: 0 10px 20px 20px;
+        width: 218px;
+        margin: 0 10px 20px 10px;
     }
+
+    .containerItem2 img{
+        width: 70px;
+    }
+
 
 
     .blocPopulaire{
         display: flex;
         flex-direction: column;
-        background-color: #F2F2F2;
+        justify-content: center;
+        align-items: center;
         border-radius: 15px;
         margin-top: 0px; 
-        margin-left: 30px;
+        margin-left: 0px;
         width: 100%;
-        width: fit-content; 
+        
     }
 
     .block2{
@@ -59,13 +75,38 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 768px;
+        width: 718px;
     }
+
+    .blocPopulaire h2{
+        font-size: 22px;
+    }
+
+    .blockFusion h2{
+        font-size: 22px;
+    }
+
+    .block2 h2{
+        margin-left: -350px;
+        font-size: 22px;
+    }
+
+    .blockFusion{
+        margin-top: 20px;
+    }
+
     .bloc-act{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .b-act{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: fit-content;
+        height: auto;
+        margin-top: 0;
     }
 
     .ba{
@@ -77,27 +118,47 @@
     }
     
     .cont-1{
-        width: 300px;
+        width: 718px;
+        margin-left: 18px;
     }
 
     .cont-2{
-        width: 300px;
+        width: 350px;
+        height: 190px;
+        margin-right: 20px;
+        margin-left: 18px;
     }
 
     .cont-b-2{
-        width: 600px;
+        width: 350px;
+        height: 190px;
     }
 
     .cont-3{
-        width: 300px;
+        width: 718px;
+        margin-left: 18px;
     }
 
     .cont-4{
-        width: 300px;
+        width: 350px;
+        height: 190px;
+        margin-right: 20px;
+        margin-left: 18px;
     }
 
     .cont-b-4{
-        width: 600px;
+        width: 350px;
+        
+        height: 190px;
+    }
+
+    .double{
+        
+    }
+
+    footer nav{
+        width: auto;
+        margin: auto;
     }
 
     .foot-container{
