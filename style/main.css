@@ -1,20 +1,20 @@
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-main{
+main {
     /*margin: 20px 50px 50px 50px;*/
     display: flex;
     flex-direction: column;
@@ -24,11 +24,11 @@ main{
 
 /******************* Header *******************/
 
-.navHead{
+.navHead {
     display: flex;
 }
 
-#logo{
+#logo {
     width: auto;
     height: 36px;
     margin-top: 35px;
@@ -36,46 +36,46 @@ main{
     transition: 0.3s;
 }
 
-#logo:hover{
+#logo:hover {
     opacity: 60%;
 }
 
-.insc{
+.insc {
     margin-top: 28px;
 }
 
-.nav-signal{
+.nav-signal {
     display: flex;
     margin-top: 0px;
 }
 
-.navList{
+.navList {
     display: flex;
 }
 
-.h-nav{
+.h-nav {
     padding-top: 41px;
     margin-top: 0;
     border-top: solid 3px #F2F2F2;
     transition: 0.3s;
 }
 
-.h-nav:hover{
+.h-nav:hover {
     border-top: solid 3px #0065FC ;
 }
 
-.nav-act{
+.nav-act {
     padding-top: 22px;
     margin-top: 0;
     border-top: solid 3px #F2F2F2;
 }
 
-.nav-act:hover{
+.nav-act:hover {
     border-top: solid 3px #0065FC;
     transition-duration: 3ms;
 }
 
-.blue-signal{
+.blue-signal {
     position: absolute;
     height: 3px;
     width: 130px;
@@ -83,55 +83,55 @@ main{
     margin-bottom: 20px;
 }
 
-.ul-nav-Head{
+.ul-nav-Head {
     display: flex;
     width: 320px;
     margin-top: 0;
 }
 
-.li-bold{
+.li-bold {
     display: flex;
 }
 
-header nav ul li{
+header nav ul li {
     margin: 20px 20px 20px 20px;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: #0065FC;
     font-size: 13px;
 }
 
-#grey-act{
+#grey-act {
     color: black
 }
 
-.navList a:hover{
+.navList a:hover {
     opacity: 60%;
     transition-duration: 3ms;
 }
 
-.actif{
+.actif {
     color: #F2F2F2;
 }
 
-.header-form{
+.header-form {
     width: 67em;
 }
 
-h1{
+h1 {
     margin-top: 26px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.s-title{
+.s-title {
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 13px;
 }
 
-form{
+form {
     display: flex;
     background-color: #F2F2F2;
     width: 330px;
@@ -143,7 +143,7 @@ form label {
     cursor: pointer;
 }
 
-.z-info{
+.z-info {
     display: flex;
     justify-content: center;
     height: auto;
@@ -151,7 +151,7 @@ form label {
     margin-top: 13px;
 }
 
-.div-input{
+.div-input {
     display: flex;
     justify-content: flex-end;
     background-color: white; height: 39px;
@@ -161,7 +161,7 @@ form label {
     margin-bottom: 2px;
 }
 
-input{
+input {
     height: auto;
     width: 170px;
     border: none;
@@ -169,14 +169,14 @@ input{
     margin-bottom: 2px;
 }
 
-input::placeholder{
+input::placeholder {
     margin-left: 10px;
     font-size: 15px;
     font-weight: bold;
     color: black;
 }
 
-button{
+button {
     background-color: #0065FC;
     color: #ffffff;
     border-radius: 0px 15px 15px 0px;
@@ -198,12 +198,9 @@ button{
     margin: 0 auto;
 }
 
-.fa-search{
+.fa-search {
     display: none;
 }
-
-
-
 
 button:focus {
     outline:0;
@@ -215,13 +212,12 @@ input:focus {
     transition-duration: 3ms;
 }
 
-
-button:hover{
+button:hover {
     opacity: 70%;
     transition-duration: 3ms;   
 }
 
-.zoneSearch a:hover{
+.zoneSearch a:hover {
     opacity: 50%;
     transition-duration: 3ms; 
 }
@@ -237,7 +233,7 @@ button:hover{
     height: auto;
 }
 
-.zoneFilter p{
+.zoneFilter p {
     margin-top: 15px;
     font-weight: bold;
     font-size: 15px;
@@ -257,16 +253,16 @@ button:hover{
     width: 90%;
 }
 
-.zoneFilter a{
+.zoneFilter a {
     position: relative;
 }
 
-.div-filter:hover{
+.div-filter:hover {
     opacity: 60%;
     transition-duration: 3ms;
 }
 
-.div-filter{
+.div-filter {
     display: flex;
     border: solid;
     border-color: #F2F2F2;
@@ -275,14 +271,14 @@ button:hover{
     width: auto;
 }
 
-.div-filter p{
+.div-filter p {
     margin: 10px 11px 0px 11px;
     font-weight: bold;
     font-size: 15px;
     padding-left: 35px;
 }
 
-.pastille-filter{
+.pastille-filter {
     position: absolute;
     border-radius: 100px;
     background-color: #DEEBFF;
@@ -294,61 +290,61 @@ button:hover{
     margin-top: -3px;
 }
 
-.fas{
+.fas {
     color: #0065FC;
     font-size: 18px;
 }
 
-.fa-map-marker-alt{
+.fa-map-marker-alt {
     color:black;
     font-size: 15px;
 }
 
-.zoneInfo{
+.zoneInfo {
     display: flex;
     margin-top: 20px;
 }
 
-.zoneInfo p{
+.zoneInfo p {
     font-size: 12px;
     margin-top: 15px;
 }
 
-.logo-info{
+.logo-info {
     border: solid;
     border-color: #F2F2F2;
     border-radius: 80px;
     margin: 10px 10px 25px 0px;
 }
 
-.fa-info{
+.fa-info {
     font-size: 9px;
     margin: 0px 7px 4px 7px;
 } 
 
 /******************* Body *********************/
 
-.block1{
+.block1 {
     display: flex;
     border-radius: 15px;
     width: fit-content;
 }
 
-.blockGrey{
+.blockGrey {
     display: flex;
     justify-content: space-between;
     /*flex-wrap: wrap;*/
     width: 1080px;
 }
 
-.blockFusion{
+.blockFusion {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
 
-.blockFusion h2{
+.blockFusion h2 {
     margin-left: 31px;
     margin-top: 31px;
     margin-bottom: 0px;
@@ -375,7 +371,7 @@ button:hover{
     margin: 0px 0px 15px 30px;
 }
 
-.containerItem{
+.containerItem {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -386,39 +382,38 @@ button:hover{
     margin: 0px 25px 0px 0px;
 }
 
-.banArticle{
+.banArticle { 
     border-radius: 0px 0px 15px 15px;
     margin-top: -4px;
     margin-right: 18px;
     padding-left: 0px;
     background-color: white;
-    
     width: 100%;
     height: 60px;
     opacity: 100%;
 }
 
-.banArticle p{
+.banArticle p {
     font-size: 13px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 5px;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.blocLeft p{
+.blocLeft p {
     color: black;
 }
 
-.blocLeft:hover{
+.blocLeft:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.blocLeft img{
+.blocLeft img {
     margin: 4px;
     width: 192px;
     height: 90px;
@@ -427,32 +422,32 @@ button:hover{
     background-color: #F2F2F2;
 }
 
-.fa-star{
+.fa-star {
     color: #0065FC;
     font-size: 13px;
     margin: 0px;
 }
 
-#s{
+#s {
     color: #F2F2F2;
 }
 
-.stars{
+.stars {
     margin-left: 8px;
     margin-top: 7px;
 }
 
-.afficherPlus{
+.afficherPlus {
     width: fit-content;
     width: 100%;
     margin: 0px 0px 40px 30px;
 }
 
-.afficherPlus p{
+.afficherPlus p {
     color: black;
 }
 
-.afficherPlus p:hover{
+.afficherPlus p:hover {
     opacity: 60%;
     transition-duration: 3ms;
 }
@@ -463,17 +458,17 @@ button:hover{
     float: right;
 }
 
-.b-right p{
+.b-right p {
     color: black;
 }
 
-.b-right .b-item-right{
+.b-right .b-item-right {
     display: flex;
     margin: 0px;
     width: 350px;
 }
 
-.blocPopulaire{
+.blocPopulaire {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -483,7 +478,7 @@ button:hover{
     width: 325px; 
 }
 
-.blocPopulaire h2{
+.blocPopulaire h2 {
     margin-left: 31px;
     margin-right: 10px;
     margin-top: 31px;
@@ -491,7 +486,7 @@ button:hover{
     font-size: 18px;
 }
 
-.containerItem2{
+.containerItem2 {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -501,7 +496,7 @@ button:hover{
     margin: 0px 30px 15px 30px;
 }
 
-.containerItem2 img{
+.containerItem2 img {
     height: 102px;
     width: 100px;
     object-fit: cover;
@@ -509,12 +504,12 @@ button:hover{
     margin: 4px;
 }
 
-.containerItem2:hover{
+.containerItem2:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.artPopulaire{
+.artPopulaire {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -524,34 +519,32 @@ button:hover{
     border-radius: 15px;
 }
 
-.artPopulaire p{
+.artPopulaire p {
     margin: 4px 0px 3px 8px;
 }
 
-#populaire{
+#populaire {
     display: flex;
     justify-content: space-between;
 }
 
-.fa-chart-line{
+.fa-chart-line {
     margin: 30px;
     font-size: 20px;
     color: black;
 }
-.artPopulaire .stars{
+.artPopulaire .stars {
     margin-top: 28px;
 }
 
 /*------------------*/
 
-.block2{
+.block2 {
     margin-bottom: 0px;
     width: 1080px;
-
-
 }
 
-.block2 h2{
+.block2 h2 {
     display: flex;
     font-weight: bold;
     font-size: 18px;
@@ -559,13 +552,13 @@ button:hover{
     margin-bottom: 20px;
 }
 
-.bloc-act{
+.bloc-act { 
     display: flex;
     justify-content: center;
     
 }
 
-.b-act{
+.b-act {
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -574,137 +567,138 @@ button:hover{
     border-radius: 15px;
 }
 
-.b-act img{
+.b-act img { 
     border-radius: 15px 15px 0px 0px;
 }
 
-.ba{
+.ba {
     border-radius: 15px;
     background-color: white;
     padding: 0px;
     box-shadow: 0px 2px 2px 2px #F2F2F2;
 }
 
-.title-photo{
+.title-photo {
     background-color: white;
     height: 30px;
     border-radius: 0px 0px 15px 15px;
 }
 
-.title-photo p{
+.title-photo p {
     font-weight: bold;
     font-size: 14px;
     margin: 5px 13px 0px 10px;
 }
 
-.cont-1 img{
+.cont-1 img {
     height: 350px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-1:hover{
+.cont-1:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.cont-2{
+.cont-2 {
     margin-bottom: 27px;
 }
 
-.cont-2 img{
+.cont-2 img {
     height: 185px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-2:hover{
+.cont-2:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.cont-b-2 img{
+.cont-b-2 img {
     height: 100px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-b-2:hover{
+.cont-b-2:hover {
     opacity: 80%;
 }
 
-.cont-3 img{
+.cont-3 img {
     height: 350px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-3:hover{
+.cont-3:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.cont-4{
+.cont-4 {
     margin-bottom: 31px;
 }
 
-.cont-4:hover{
+.cont-4:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
-.cont-4 img{
+.cont-4 img {
     height: 130px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-b-4 img{
+.cont-b-4 img {
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
 
-.cont-b-4:hover{
+.cont-b-4:hover {
     opacity: 80%;
     transition-duration: 3ms;
 }
 
 /******************* Footer *******************/
 
-footer{
+footer {
     display: flex;
     /*width: 100%;*/
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     height: auto;
     background-color: #F2F2F2;
     padding: 50px 0px 50px 50px;
     margin-bottom: 0px;
+    margin-left: -120px;
 }
 
-footer nav{
+footer nav {
    margin-right: 200px;
 }
 
-.foot-container{
+.foot-container {
     display: flex;
 }
 
-footer p{
+footer p {
     margin-bottom: 15px;
     font-weight: bolder;
     font-size: 15px;
 }
 
-footer li{
+footer li {
     margin-bottom: 10px;
     font-size: 13px;
     color: black;
 }
 
-footer li:hover{
+footer li:hover {
     opacity: 60%;
     transition-duration: 3ms;
 }

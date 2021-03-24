@@ -1,64 +1,57 @@
 @media screen and (min-width: 768px) and (max-width: 1160px) {
     
-    #logo{
+    #logo {
         margin-right: 325px;
     }
 
-    .header-form{
+    .header-form {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        
         width: fit-content;
     }
     
-    .block1{
+    .block1 {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         width: 100%;
-        
     }
 
-    .zoneFilter{
+    .zoneFilter {
         width: 718px;
     }
 
-    .blockGrey{
+    .blockGrey {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        
         width: 718px;
         border-radius: 0;
-        
     }
 
-    .b-right{
+    .b-right {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    #populaire{
+    #populaire {
         width: 718px;
-        
     }
     
-    .containerItem2{
+    .containerItem2 {
         width: 218px;
         margin: 0 10px 20px 10px;
     }
 
-    .containerItem2 img{
+    .containerItem2 img {
         width: 70px;
     }
 
-
-
-    .blocPopulaire{
+    .blocPopulaire {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -67,10 +60,9 @@
         margin-top: 0px; 
         margin-left: 0px;
         width: 100%;
-        
     }
 
-    .block2{
+    .block2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -78,29 +70,29 @@
         width: 718px;
     }
 
-    .blocPopulaire h2{
+    .blocPopulaire h2 {
         font-size: 22px;
     }
 
-    .blockFusion h2{
+    .blockFusion h2 {
         font-size: 22px;
     }
 
-    .block2 h2{
+    .block2 h2 {
         margin-left: -350px;
         font-size: 22px;
     }
 
-    .blockFusion{
+    .blockFusion {
         margin-top: 20px;
     }
 
-    .bloc-act{
+    .bloc-act {
         display: flex;
         flex-direction: column;
     }
 
-    .b-act{
+    .b-act {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -109,59 +101,53 @@
         margin-top: 0;
     }
 
-    .ba{
+    .ba {
         width: 200px;
     }
 
-    .ba img{
+    .ba img {
         height: 150px;
     }
     
-    .cont-1{
+    .cont-1 {
         width: 718px;
         margin-left: 18px;
     }
 
-    .cont-2{
+    .cont-2 {
         width: 350px;
         height: 190px;
         margin-right: 20px;
         margin-left: 18px;
     }
 
-    .cont-b-2{
+    .cont-b-2 {
         width: 350px;
         height: 190px;
     }
 
-    .cont-3{
+    .cont-3 {
         width: 718px;
         margin-left: 18px;
     }
 
-    .cont-4{
+    .cont-4 {
         width: 350px;
         height: 190px;
         margin-right: 20px;
         margin-left: 18px;
     }
 
-    .cont-b-4{
+    .cont-b-4 {
         width: 350px;
-        
         height: 190px;
     }
 
-    .double{
-        
-    }
-
-    footer nav{
-        width: auto;
+    footer nav {
         margin: auto;
     }
 
-    .foot-container{
-        width: 100%;
+    .foot-container {
+        width: 49em;
     }
 }
