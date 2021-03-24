@@ -443,6 +443,8 @@ button:hover{
 }
 
 .afficherPlus{
+    width: fit-content;
+    width: 100%;
     margin: 0px 0px 40px 30px;
 }
 
@@ -559,6 +561,8 @@ button:hover{
 
 .bloc-act{
     display: flex;
+    justify-content: center;
+    
 }
 
 .b-act{
@@ -672,7 +676,7 @@ footer{
     display: flex;
     /*width: 100%;*/
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: auto;
     background-color: #F2F2F2;

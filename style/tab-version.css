@@ -1,3 +1,106 @@
 @media screen and (min-width: 768px) and (max-width: 1160px) {
+    
+    #logo{
+        margin-right: 200px;
+    }
 
+    .header-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        
+        width: fit-content;
+    }
+    
+    .block1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .blockGrey{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+        border-radius: 0;
+    }
+
+    .b-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .containerItem2{
+        width: 14em;
+        margin: 0 10px 20px 20px;
+    }
+
+
+    .blocPopulaire{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin-top: 0px; 
+        margin-left: 30px;
+        width: 100%;
+        width: fit-content; 
+    }
+
+    .block2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+    }
+    .bloc-act{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ba{
+        width: 200px;
+    }
+
+    .ba img{
+        height: 150px;
+    }
+    
+    .cont-1{
+        width: 300px;
+    }
+
+    .cont-2{
+        width: 300px;
+    }
+
+    .cont-b-2{
+        width: 600px;
+    }
+
+    .cont-3{
+        width: 300px;
+    }
+
+    .cont-4{
+        width: 300px;
+    }
+
+    .cont-b-4{
+        width: 600px;
+    }
+
+    .foot-container{
+        width: 100%;
+    }
 }
