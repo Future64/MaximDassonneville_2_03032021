@@ -51,6 +51,7 @@
         flex-direction: column;
         margin-top: 50px;
         margin-left: 0px;
+        margin-right: 0;
         margin-bottom: 20px;
         border-top: none;
         border-bottom: solid 3px;
@@ -64,13 +65,14 @@
 
     .nav-act a {
         padding: 0 40px 0 40px;
+        
     }
 
     .h-nav {
         border-top: 0px;
         border-bottom: solid 3px;
         border-color: #F2F2F2;
-        padding: 90px 35px 10px 35px;
+        padding: 90px 35px 10px 45px;
         margin-left: -25px;
         margin-right: 0;
     }
@@ -82,7 +84,7 @@
 
     .bold {
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .insc {
@@ -332,11 +334,11 @@
         
     }
 
-    #activite {
+    .activite {
         margin-left: -60px;
     }
 
-    #activite h2 {
+    .activite h2 {
         font-size: 22px;
     }
 

@@ -54,7 +54,7 @@ main {
 }
 
 .h-nav {
-    padding-top: 41px;
+    padding: 41px 20px 0 20px;
     margin-top: 0;
     border-top: solid 3px #F2F2F2;
     transition: 0.3s;
@@ -65,9 +65,10 @@ main {
 }
 
 .nav-act {
-    padding-top: 22px;
+    padding: 22px 30px 0 30px;
     margin-top: 0;
     border-top: solid 3px #F2F2F2;
+    margin-right: 15px;
 }
 
 .nav-act:hover {
@@ -94,7 +95,7 @@ main {
 }
 
 header nav ul li {
-    margin: 20px 20px 20px 20px;
+    margin: 20px 0 20px 0;
 }
 
 header nav ul li a {
@@ -102,7 +103,7 @@ header nav ul li a {
     font-size: 13px;
 }
 
-#grey-act {
+.grey-act {
     color: black
 }
 
@@ -428,7 +429,7 @@ button:hover {
     margin: 0px;
 }
 
-#s {
+.s {
     color: #F2F2F2;
 }
 
@@ -637,6 +638,7 @@ button:hover {
 
 .cont-3{
     cursor: pointer;
+    
 }
 
 .cont-3 img {
@@ -710,10 +712,14 @@ footer p {
     font-size: 15px;
 }
 
+footer li a{
+    color: black;
+}
+
 footer li {
     margin-bottom: 10px;
     font-size: 13px;
-    color: black;
+    
 }
 
 footer li:hover {
