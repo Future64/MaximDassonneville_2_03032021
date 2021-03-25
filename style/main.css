@@ -590,6 +590,10 @@ button:hover {
     margin: 5px 13px 0px 10px;
 }
 
+.cont-1{
+    cursor: pointer;
+}
+
 .cont-1 img {
     height: 350px;
     width: 100%;
@@ -603,6 +607,7 @@ button:hover {
 
 .cont-2 {
     margin-bottom: 27px;
+    cursor: pointer;
 }
 
 .cont-2 img {
@@ -616,6 +621,10 @@ button:hover {
     transition-duration: 3ms;
 }
 
+.cont-b-2{
+    cursor: pointer;
+}
+
 .cont-b-2 img {
     height: 100px;
     width: 100%;
@@ -624,6 +633,10 @@ button:hover {
 
 .cont-b-2:hover {
     opacity: 80%;
+}
+
+.cont-3{
+    cursor: pointer;
 }
 
 .cont-3 img {
@@ -639,6 +652,7 @@ button:hover {
 
 .cont-4 {
     margin-bottom: 31px;
+    cursor: pointer;
 }
 
 .cont-4:hover {
@@ -650,6 +664,10 @@ button:hover {
     height: 130px;
     width: 100%;
     object-fit: cover;
+}
+
+.cont-b-4{
+    cursor: pointer;
 }
 
 .cont-b-4 img {
