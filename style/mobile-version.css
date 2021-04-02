@@ -34,7 +34,7 @@
     }
 
     .header-form {
-        width: 20em;
+        width: 100%;
         margin-left: 20px;
     }
 
@@ -47,6 +47,7 @@
     }
 
     .nav-act {
+        position: absolute;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -64,7 +65,7 @@
     }
 
     .nav-act a {
-        padding: 0 40px 0 40px;
+        /*padding: 0 40px 0 40px;*/
         
     }
 
