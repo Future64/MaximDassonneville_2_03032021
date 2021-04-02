@@ -514,7 +514,7 @@ button:hover {
     margin: 4px 0px 3px 8px;
 }
 
-#populaire {
+.populaire {
     display: flex;
     justify-content: space-between;
 }
