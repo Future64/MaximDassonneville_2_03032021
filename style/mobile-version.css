@@ -6,6 +6,10 @@
     body {
         margin: 0 auto;
     }
+
+    header{
+        width: 100%;
+    }
     
     main {
         display: flex;
@@ -28,6 +32,23 @@
 
     .ul-nav-Head {
         position: relative;
+        width: 400px;
+    }
+
+    @media screen and (max-width: 375px){
+        .ul-nav-Head {
+            width: 375px;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        .ul-nav-Head {
+            width: 300px;
+        }
+    }
+
+    .grey-act{
+        margin-left: 30px;
     }
 
     #logo {
@@ -38,8 +59,8 @@
     }
 
     .header-form {
-        width: 100%;
-        margin-left: 20px;
+        width: 300px;
+        margin-left: 10px;
     }
 
     .navList a {
@@ -51,7 +72,9 @@
     }
 
     .nav-act {
-        position: absolute;
+        
+        left: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -74,6 +97,8 @@
     }
 
     .h-nav {
+        right: 50%;
+        width: 100%;
         border-top: 0px;
         border-bottom: solid 3px;
         border-color: #F2F2F2;
@@ -235,6 +260,10 @@
         object-fit: cover;
         border-radius: 15px 0px 0px 15px;
         margin: 4px;
+    }
+
+    #febrian{
+        width: 143.02px;
     }
     
     .blockFusion {
