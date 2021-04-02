@@ -1,5 +1,8 @@
 @media screen and (max-width: 767px) {
 
+    html{
+        overflow-x: hidden;
+    }
     body {
         margin: 0 auto;
     }
@@ -9,6 +12,7 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        /*width: fit-content;*/
     }
     
     .navHead {
@@ -211,7 +215,8 @@
         margin-bottom: 15px;
         background-color: white;
         box-shadow: 0px 0px 15px 10px  #F2F2F2;
-        margin-left: 26px;
+        /*margin-left: 26px;*/
+        margin-right: 0;
     }
 
     .containerItem img {
@@ -329,7 +334,7 @@
     }
 
     .blocPopulaire h2 {
-        margin-left: 34px;
+        margin-left: 19px;
         margin-right: 60px;
         font-size: 20px;
         
@@ -367,20 +372,42 @@
 
     .cont-1 {
         margin-bottom: -20px;
+        margin-left: -5px;
+        width: 288px;
     }
 
     .cont-b-2 {
         margin-bottom: -20px;
+        margin-left: -5px;
+        width: 288px;
+    }
+
+    .cont-2{
+        margin-left: -5px;
+        width: 288px;
     }
 
     .cont-3 {
         margin-bottom: -20px;
+        margin-left: -5px;
+        width: 288px;
+    }
+
+    .cont-4{
+        margin-left: -5px;
+        width: 288px;
+    }
+
+    .cont-b-4{
+        margin-left: -5px;
+        width: 288px;
     }
 
     footer {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         padding-bottom: 10px;
         padding-left: 0;
