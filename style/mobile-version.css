@@ -1,10 +1,8 @@
 @media screen and (max-width: 767px) {
 
-    html {
-        overflow-x: hidden;
-    }
     body {
         margin: 0 auto;
+        width: fit-content;
     }
 
     header{
@@ -16,6 +14,7 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        
     }
     
     .navHead {
@@ -31,19 +30,6 @@
 
     .ul-nav-Head {
         position: relative;
-        width: 400px;
-    }
-
-    @media screen and (max-width: 375px) {
-        .ul-nav-Head {
-            width: 375px;
-        }
-    }
-
-    @media screen and (max-width: 320px) {
-        .ul-nav-Head {
-            width: 300px;
-        }
     }
 
     .grey-act {
@@ -59,7 +45,6 @@
 
     .header-form {
         width: 300px;
-        margin-left: 10px;
     }
 
     .navList a {
@@ -219,6 +204,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         width: 100%;
         border-radius: 0;
         margin-left: 0px;
@@ -263,8 +249,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        align-items: center;
         background-color: white;
-        width: 100%;
+        width: fit-content;
         margin: auto;
     }
 
@@ -305,10 +293,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         width: 100%;
         height: auto;
         background-color: white;
         margin: 15px 0px 15px 0;
+        
     }
     
     .bold {
@@ -320,6 +310,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         width: 100%;
         height: auto;
         background-color: white;
@@ -353,6 +344,7 @@
 
     .blocPopulaire {
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .blocPopulaire h2 {
